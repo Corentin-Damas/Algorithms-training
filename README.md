@@ -15,4 +15,5 @@ But as training I'll try to add solution in Javascript and GO
 ### Finished
 
 - Array & Hasing
+  - Valid Anagram : Easy
   - Two Sum : Easy
