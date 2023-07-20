@@ -18,3 +18,6 @@ But as training I'll try to add solution in Javascript and GO
   - Contain Duplicate : Easy
   - Valid Anagram : Easy
   - Two Sum : Easy
+
+- Two Pointers
+  - Valid Palindrome : Easy
