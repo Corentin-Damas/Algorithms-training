@@ -15,9 +15,14 @@ But as training I'll try to add solution in Javascript and GO
 ### Finished
 
 - Array & Hasing
+
   - Contain Duplicate : Easy
   - Valid Anagram : Easy
   - Two Sum : Easy
 
 - Two Pointers
+
   - Valid Palindrome : Easy
+
+- SlidingWindow
+  - Best time to buy and sell : Easy
