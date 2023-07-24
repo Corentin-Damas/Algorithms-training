@@ -25,4 +25,8 @@ But as training I'll try to add solution in Javascript and GO
   - Valid Palindrome : Easy
 
 - SlidingWindow
+
   - Best time to buy and sell : Easy
+
+- Stack
+  - valid Patentheses : Easy
