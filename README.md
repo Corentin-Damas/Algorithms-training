@@ -30,3 +30,6 @@ But as training I'll try to add solution in Javascript and GO
 
 - Stack
   - valid Patentheses : Easy
+
+- Binary Search:
+  - Binary Search : Easy
