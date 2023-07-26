@@ -33,3 +33,6 @@ But as training I'll try to add solution in Javascript and GO
 
 - Binary Search:
   - Binary Search : Easy
+
+- Linked List:
+  - Reverse Linked list : Easy 
