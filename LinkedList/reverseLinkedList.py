@@ -13,7 +13,7 @@ def reverseListIter(head: ListNode) -> ListNode:
     while current:
         next = current.next # temp variable so we don't break entirely the NodeList when we reverse the pointer
         current.next = previous #reverse pointer instead of pointing forward we make it point to the previous data
-        previous = current # shift poiter
+        previous = current # shift pointer
         current = next
     return previous
 

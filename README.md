@@ -29,10 +29,13 @@ But as training I'll try to add solution in Javascript and GO
   - Best time to buy and sell : Easy
 
 - Stack
+
   - valid Patentheses : Easy
 
 - Binary Search:
+
   - Binary Search : Easy
 
 - Linked List:
-  - Reverse Linked list : Easy 
+  - Reverse Linked list : Easy
+  - Merge Two Sorted List : Easy
