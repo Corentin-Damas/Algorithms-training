@@ -39,3 +39,4 @@ But as training I'll try to add solution in Javascript and GO
 - Linked List:
   - Reverse Linked list : Easy
   - Merge Two Sorted List : Easy
+  - Linked list Cycle : Easy 
