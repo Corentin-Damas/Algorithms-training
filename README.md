@@ -40,3 +40,6 @@ But as training I'll try to add solution in Javascript and GO
   - Reverse Linked list : Easy
   - Merge Two Sorted List : Easy
   - Linked list Cycle : Easy 
+
+- Trees:
+  - invert Tree : Easy
