@@ -5,7 +5,7 @@ class TreeNode:
         self.left = left
         self.right = right
 
-def invertTree(root: Optional[TreeNode]) -> Optional[TreeNode]:
+def invertTree(root: TreeNode) -> TreeNode:
     # Recursive definition, invert the 2 child of a node a do it for all nodes
     
     # Base case, no childrens 
