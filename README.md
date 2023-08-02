@@ -43,3 +43,4 @@ But as training I'll try to add solution in Javascript and GO
 
 - Trees:
   - invert Tree : Easy
+  - Maximum depth of binary three : Easy
