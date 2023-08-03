@@ -37,10 +37,12 @@ But as training I'll try to add solution in Javascript and GO
   - Binary Search : Easy
 
 - Linked List:
+
   - Reverse Linked list : Easy
   - Merge Two Sorted List : Easy
-  - Linked list Cycle : Easy 
+  - Linked list Cycle : Easy
 
 - Trees:
   - invert Tree : Easy
-  - Maximum depth of binary three : Easy
+  - Maximum depth of binary Tree : Easy
+  - Diameter of binary Tree : Easy
