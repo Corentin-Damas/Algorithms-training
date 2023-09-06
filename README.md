@@ -12,6 +12,15 @@ My main programing language is Python
 
 But as training I'll try to add solution in Javascript and GO
 
+### Data Structures
+
+To be able to test and better understand the differents algorithms, i'll add the differente Datastructure
+like the Binary tree, node list and others so that we are able to test the different algorithms.
+in the file :
+
+- Data Structure
+  - BinaryTree : In Construction
+
 ### Finished
 
 - Array & Hasing
@@ -43,6 +52,7 @@ But as training I'll try to add solution in Javascript and GO
   - Linked list Cycle : Easy
 
 - Trees:
+  - Binary Three : Construction of a Three to help test the different
   - invert Tree : Easy
   - Maximum depth of binary Tree : Easy
   - Diameter of binary Tree : Easy
