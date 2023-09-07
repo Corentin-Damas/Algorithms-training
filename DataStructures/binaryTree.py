@@ -1,7 +1,7 @@
 #. Define a Tree
 class Node:
     def __init__(self, data):
-        self.right = None
+        self.left = None
         self.right= None
         self.data = data
         
@@ -28,7 +28,32 @@ class Node:
                     self.right = Node(data)
                 else:
                     self.right.insert(data)
-                    
+
+def inOrderPrint(r):
+    if r is None: 
+        return
+    else:
+        inOrderPrint(r.left)
+        print(r.data, end = ' ')
+        inOrderPrint(r.right)   
+
+def preOrderPrint(r):
+    if r is None: 
+        return
+    else: 
+        print(r.data, end = ' ')
+        preOrderPrint(r.left)
+        preOrderPrint(r.right)  
+
+def postOrder(r):
+    if r is None: 
+        return
+    else: 
+        print(r.data, end = ' ')
+        postOrder(r.right)  
+        postOrder(r.left)
+    
+
 if __name__ == '__main__':
     root = Node('g')
     root.insert("c")
@@ -39,3 +64,9 @@ if __name__ == '__main__':
     root.insert("h")
     root.insert("e")
     
+
+inOrderPrint(root)
+print("\n")
+preOrderPrint(root)
+print("\n")
+postOrder(root)
