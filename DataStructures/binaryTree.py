@@ -53,6 +53,29 @@ def postOrder(r):
         postOrder(r.right)  
         postOrder(r.left)
     
+def makeList(r):
+    if r is None:
+        return
+    else: 
+        d[r.data] = []
+        makeList(r.left)
+        if r.left:
+            d[r.data].append(r.left.data)
+        if r.right:
+            d[r.data].append(r.right.data)
+        makeList(r.right)
+    return d
+    
+def DFPrint(tree):
+    if tree is None:
+        return
+    else:
+        if tree.left:
+            DFPrint(tree.left)
+        print(tree.data, end=" ")
+        if tree.right:
+            DFPrint(tree.right)
+
 
 if __name__ == '__main__':
     root = Node('g')
@@ -64,9 +87,17 @@ if __name__ == '__main__':
     root.insert("h")
     root.insert("e")
     
-
+print('in Order')
 inOrderPrint(root)
-print("\n")
+print("\nPre Order")
 preOrderPrint(root)
-print("\n")
+print("\nPost Order")
 postOrder(root)
+
+# Adjacency list 
+d ={}
+aList = makeList(root)
+
+print("\nAdjacency List")
+for ele in aList: 
+    print(f"{ele}:{d[ele]}")
