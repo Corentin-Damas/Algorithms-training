@@ -19,6 +19,7 @@ like the Binary tree, node list and others so that we are able to test the diffe
 in the file :
 
 - Data Structure
+  - Linked list 
   - BinaryTree : In Construction
 
 ### Finished
