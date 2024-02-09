@@ -1,5 +1,6 @@
-import random
+# O(n^2)
 
+import random
 
 def bubble_sort(nums):
     swapping = True
