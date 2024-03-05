@@ -1,5 +1,3 @@
-
-
 class Solution:
     def romanToInt(s: str) -> int:
         table = {
