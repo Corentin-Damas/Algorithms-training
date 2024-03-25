@@ -1,6 +1,5 @@
 from typing import List
 
-
 class Solution:
     def minSubArrayLen(target: int, nums: List[int]) -> int:
         l = 0
