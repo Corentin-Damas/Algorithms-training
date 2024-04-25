@@ -6,8 +6,8 @@
 
 def hasCycle(head) -> bool:
     # speed : O(n) memory: O(n)
-    memory: {}
-    count : 0
+    memory= {}
+    count = 0
     
     while head and head.next :
         if memory.get(head.next):
